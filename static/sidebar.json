@@ -1,0 +1,184 @@
+{
+  "code": 2000,
+  "msg": "OK",
+  "data": [{
+    "navName": "工作台",
+    "route": null,
+    "class": "el-icon-date",
+    "hasSub": true,
+    "subNav": [{
+      "navName": "上课安排",
+      "route": "/workbench/classSet",
+      "hasSub": false,
+      "subNav": null
+    }]
+  },{
+    "navName": "运营数据监控",
+    "route": null,
+    "class": "el-icon-tickets",
+    "hasSub": true,
+    "subNav": [{
+      "navName": "生活馆运营概览",
+      "route": "/lifehallView",
+      "hasSub": false,
+      "subNav": null
+    }]
+  }, {
+    "navName": "场馆配置",
+    "route": null,
+    "class": "el-icon-setting",
+    "hasSub": true,
+    "subNav": [{
+      "navName": "场馆列表",
+      "route": "/pavilionsSet",
+      "hasSub": false,
+      "subNav": null
+    }]
+  }, {
+    "navName": "课程管理",
+    "route": null,
+    "class": "el-icon-bell",
+    "hasSub": true,
+    "subNav": [{
+      "navName": "私教课课程",
+      "route": "/trainerCourseList",
+      "hasSub": false,
+      "subNav": null
+    },{
+      "navName": "团课课程",
+      "route": "/groupCourseList",
+      "hasSub": false,
+      "subNav": null
+    },{
+      "navName": "课程表",
+      "route": "/groupCurriculum",
+      "hasSub": false,
+      "subNav": null
+    },{
+      "navName": "视频课程",
+      "route": "/videoList",
+      "hasSub": false,
+      "subNav": null
+    }]
+  },
+    {
+      "navName": "营销管理",
+      "route": null,
+      "class": "el-icon-phone-outline",
+      "hasSub": true,
+      "subNav": [{
+        "navName": "分销体系",
+        "route": "/distributionSystem",
+        "hasSub": false,
+        "subNav": null
+      },{
+        "navName": "积分管理",
+        "route": "/integralManagement",
+        "hasSub": false,
+        "subNav": null
+      },{
+        "navName": "众筹会员管理",
+        "route": "/raiseList",
+        "hasSub": false,
+        "subNav": null
+      }]
+    },{
+      "navName": "特权卡",
+      "route": null,
+      "class": "el-icon-share",
+      "hasSub": true,
+      "subNav": [{
+        "navName": "特权卡列表",
+        "route": "/vipCardList",
+        "hasSub": false,
+        "subNav": null
+      }]
+    }, {
+      "navName": "管理员配置",
+      "route": null,
+      "class": "el-icon-star-off",
+      "hasSub": true,
+      "subNav": [{
+        "navName": "管理员列表",
+        "route": "/administratorList",
+        "hasSub": false,
+        "subNav": null
+      }]
+    }, {
+      "navName": "系统配置",
+      "route": null,
+      "class": "el-icon-menu",
+      "hasSub": true,
+      "subNav": [{
+        "navName": "权限配置",
+        "route": "/accessConfiguration",
+        "hasSub": false,
+        "subNav": null
+      },{
+        "navName": "操作记录",
+        "route": "/operationRecord",
+        "hasSub": false,
+        "subNav": null
+      },{
+        "navName": "修改密码",
+        "route": "/changePassword",
+        "hasSub": false,
+        "subNav": null
+      },{
+        "navName": "上传图片",
+        "route": "/uploadImage",
+        "hasSub": false,
+        "subNav": null
+      }]
+    },
+    {
+      "navName": "预约签到",
+      "route": null,
+      "hasSub": true,
+      "class": "el-icon-time",
+      "subNav": [{
+        "navName": "签到记录",
+        "route": "/signRecord",
+        "hasSub": false,
+        "subNav": null
+      },{
+        "navName": "预约记录",
+        "route": "/appointRecord",
+        "hasSub": false,
+        "subNav": null
+      }]
+    }, {
+      "navName": "员工管理",
+      "route": null,
+      "hasSub": true,
+      "class": "el-icon-news",
+      "subNav": [{
+        "navName": "工作人员",
+        "route": "/staffList",
+        "hasSub": false,
+        "subNav": null
+      }, {
+        "navName": "教练/导师",
+        "route": "/trainerList",
+        "hasSub": false,
+        "subNav": null
+      }]
+    },{
+      "navName": "订单管理",
+      "route": null,
+      "class": "el-icon-printer",
+      "hasSub": true,
+      "subNav": [{
+        "navName": "订单列表",
+        "route": "/orderManage/orderManage",
+        "hasSub": false,
+        "subNav": null
+      },{
+        "navName": "消费记录",
+        "route": "/consumption/consumptionManagement",
+        "hasSub": false,
+        "subNav": null
+      }]
+    }],
+  "success": true
+}
